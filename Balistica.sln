@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Balistica", "Balistica\Balistica.csproj", "{2DC35587-B088-4EBB-BF6E-952EB37C4596}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DC35587-B088-4EBB-BF6E-952EB37C4596}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DC35587-B088-4EBB-BF6E-952EB37C4596}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DC35587-B088-4EBB-BF6E-952EB37C4596}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DC35587-B088-4EBB-BF6E-952EB37C4596}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A49C424-D008-4D9A-8CC3-28B18C8EEF62}
+	EndGlobalSection
+EndGlobal
