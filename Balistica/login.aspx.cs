@@ -54,6 +54,8 @@ namespace Balistica
                 {
                     if (contenedorInfo.Tables[0].Rows[0]["Contraseña"].ToString() == tbPassword.Text)
                     {
+                        //agregar en sesion el usuario
+                        Session["usuarioLogueado"] = tbUsuario.Text;
                         Response.Redirect("inicio.aspx");
                     }
                     else

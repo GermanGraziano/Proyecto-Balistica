@@ -54,7 +54,7 @@
                     <!-- Sidebar user (optional) -->
                     <div class="user-panel mt-3 pb-3 mb-3 d-flex">
                         <div class="info">
-                            <a href="#" class="d-block">Nombre de Usuario</a>
+                            <asp:Label ID="lblUsuario" Text="" runat="server" CssClass="h3 text-white"/>
                         </div>
                     </div>
 
@@ -108,13 +108,9 @@
 
 
                             <li class="nav-item">
-                                <a href="#" class="nav-link">
-                                    <i class="fa fa-power-off"></i>
-                                    <p>
-                                        Cerrar Sesion
-                
-                                    </p>
-                                </a>
+                               
+                                
+                                     <asp:Button Text="Cerrar Sesion" runat="server" ID="btnCerrar" CssClass="btn btn-block bg-gradient-danger btn-sm" OnClick="btnCerrar_Click" />                               
                             </li>
                         
                             <!-- /.sidebar-menu -->
