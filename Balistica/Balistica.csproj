@@ -104,6 +104,7 @@
     <Content Include="assets\js\jszip.min.js" />
     <Content Include="assets\js\pdfmake.min.js" />
     <Content Include="assets\js\responsive.bootstrap4.min.js" />
+    <Content Include="assets\js\validacion.js" />
     <Content Include="assets\js\vfs_fonts.js" />
     <Content Include="index.aspx" />
     <Content Include="assets\js\adminlte.min.js" />

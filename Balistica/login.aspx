@@ -47,7 +47,7 @@
                     </div>
                     <div class="row">
                         <div class="col-12">
-                            <asp:Button Text="Ingresar" ID="btnLogin" CssClass="btn btn-primary btn-block" runat="server" OnClick="btnLogin_Click" />
+                            <asp:Button Text="Ingresar" ID="btnLogin" CssClass="btn btn-primary btn-block" runat="server" OnClick="btnLogin_Click" OnClientClick="validar()" />
                         </div>
                         <!-- /.col -->
                     </div>
@@ -70,6 +70,8 @@
         <script src="assets/js/bootstrap.bundle.min.js"></script>
         <!-- AdminLTE App -->
         <script src="assets/js/adminlte.min.js"></script>
+        <!-- Validacion -->
+        <script src="assets/js/validacion.js"></script>
     </form>
 </body>
 </html>
